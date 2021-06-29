@@ -67,8 +67,8 @@ handelReset = () => {
   render() {
       return (
         <>
-        <SimpleHabit/>
-          {/* <Navbar totalCount={this.state.habits.filter(item => item.count > 0).length}/>
+        {/* <SimpleHabit/> */}
+          <Navbar totalCount={this.state.habits.filter(item => item.count > 0).length}/>
           <Habits 
             habits={this.state.habits}
             onIncrement={this.handleIncrement} 
@@ -76,7 +76,7 @@ handelReset = () => {
             onDelete={this.handleDelete} 
             onAdd={this.handleAdd}
             onReset={this.handelReset}
-          /> */}
+          />
         </>
 
       )
